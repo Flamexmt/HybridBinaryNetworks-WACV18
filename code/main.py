@@ -3,8 +3,8 @@ import torch.backends.cudnn as cudnn
 import opts
 import train
 import utils
-import models.__init__ as init
-import datasets.__datainit__ as init_data
+import __init__ as init
+import __datainit__ as init_data
 #from tensorboard_logger import Logger
 
 parser = opts.myargparser()

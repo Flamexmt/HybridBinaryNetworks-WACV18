@@ -1,4 +1,4 @@
-import datasets.load_data as ld
+import load_data as ld
 
 def load_data(opt):
 	'''
